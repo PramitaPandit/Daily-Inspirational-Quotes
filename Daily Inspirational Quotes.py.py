@@ -16,15 +16,6 @@ def get_random_quote(quotes_file='quotes.csv'):
     
     return random.choice(quotes)
 
-def get_weather_forecast():
-    pass
-
-def get_twitter_trends():
-    pass
-
-def get_wikipedia_article():
-    pass
-
 if __name__ == '__main__':
     ##### test get_random_quote() #####
     print('\nTesting quote generation...')
